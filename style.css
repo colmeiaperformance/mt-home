@@ -331,6 +331,49 @@ footer .top a {
   }
 }
 
+.header--home p .linoe {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+  margin-bottom: 35px;
+  width: 700px;
+}
+
+@media (max-width: 992px) {
+  .header--home p .linoe {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+}
+
+.header--home .typing-animation {
+  -webkit-animation: blinkCorsor 500ms infinite normal;
+          animation: blinkCorsor 500ms infinite normal;
+}
+
+@-webkit-keyframes blinkCursor {
+  from {
+    border-right-color: #FFFFFF;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: #FFFFFF;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 #cookie-law-info-bar #wt-cli-accept-all-btn {
   background-color: #F29F05 !important;
 }
@@ -1043,7 +1086,7 @@ footer .top a {
   .como-aprender .btn {
     font-size: 14px;
     line-height: 16px;
-    display: none;
+    display: inline-block;
   }
 }
 
