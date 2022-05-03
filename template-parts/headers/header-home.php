@@ -10,9 +10,18 @@
                <strong>A mudança começa dentro.</strong><br />
                 20 minutos.<br />
                 2 vezes ao dia.<br />
-                Sem concentração<br />
               </h1>
-                
+                <div id="variable-texts">
+                  <p class="line typing-animation"> 
+                    Sem concentração
+                  </p>
+                  <p class="line typing-animation-2"> 
+                    Sem esvaziar a mente
+                  </p>
+                  <p class="line typing-animation-3"> 
+                    Sem esforço 
+                  </p>
+                </div>
             </div>
             <div class="col p-0 text-center text-lg-end position-relative">
               <img src=<?php echo get_template_directory_uri() . '/images/header/banner-home.png' ?> alt="Header">
@@ -21,6 +30,13 @@
         </div>
       </div>
     </div>
-
   </div>
+  <script>
+		setInterval(function () {
+			document.getElementById('variable-texts').style.display = "none";
+			setTimeout(function () {
+				document.getElementById('variable-texts').style.display = "inline-block";
+			}, 10);
+		}, 12700);
+	</script>
 </header>
