@@ -44,7 +44,7 @@
         background: url('images/beneficios/quote-before.png') top center no-repeat;
         width: 35px;
         height: 29px;
-        margin-left: -70px;
+        margin-left: -45px;
         @media (max-width: 992px) {
           width: 21px;
           background-size: cover;
@@ -60,7 +60,7 @@
         height: 29px;
         top: 0;
         right: 0;
-        margin-right: -70px;
+        margin-right: -45px;
         @media (max-width: 992px) {
           width: 21px;
           background-size: cover;
@@ -184,6 +184,7 @@
       transition: all .3s ease;
       width: 90%;
       margin: 0 auto;
+
       @media (max-width: 992px) { 
         width: 85%;
       }
