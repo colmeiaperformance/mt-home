@@ -1,0 +1,117 @@
+.navbar {
+  background-color: $color-primary-light;
+  .nav-link.active {
+    font-weight: 700;
+  }
+  .nav-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color-secondary-dark;
+    padding: 0 15px!important;
+    @media (max-width: 991.98px) {
+      padding: .5rem 0!important;
+    }
+    &:hover {
+      color: $color-secondary-dark;
+      opacity: 0.7;
+    }
+    &:focus {
+      color: $color-secondary-dark;
+      opacity: 0.7;
+    }
+  }
+  .dropdown-menu {
+    border-radius: 0;
+    border: 0;
+    background: $color-secondary-dark;
+  }
+  .dropdown-item {
+    color: $color-white;
+    &:focus {
+      opacity: 0.7;
+      background: $color-secondary-dark;
+      color: $color-white;
+    }
+    &:hover{
+      opacity: 0.7;
+      background: $color-secondary-dark;
+      color: $color-white;
+    }
+  }
+  
+  .dropdown-item.active, .dropdown-item:active {
+    background: transparent;
+    color:  $color-white;
+  }
+  .navbar-toggler {
+    &:hover {
+      outline: 0;
+      box-shadow: none;
+    }
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+  .navbar-brand {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;   
+    margin-right: 0;
+    img {
+      @media (max-width: 576px) {
+        width: 187px;
+        height: auto;
+      }
+    }
+  }
+  .btn {
+    padding: 9px 21px;
+    width: 105px;
+    height: 35px;
+    background-color:$color-primary-dark;
+    border: 2px solid $color-primary-dark;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.015em;
+    color: $color-white;
+    border-radius: 0;
+    margin-right: 30px;
+    
+    &:hover {
+      outline: 0;
+      box-shadow: none;
+      color: $color-primary-dark;
+      background-color: transparent;
+    }
+    
+    .btn-check:focus + &,
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      color: $color-primary-dark;
+      background-color: transparent;
+    }
+    
+    .btn-check:checked + &,
+    .btn-check:active + &,
+    &:active,
+    &.active {
+      outline: 0;
+      box-shadow: none;
+      color: $color-primary-dark;
+      background-color: transparent;
+      
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+        color: $color-primary-dark;
+        background-color: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+
+// /*
+// //////////////////
+// ////CLEAR RESET//
+// ////////////////
+// */
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: 'Work Sans', sans-serif!important;
+}
+
+:root {
+  accent-color: #323B50;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none!important;
+  }
+}
+
+a {
+  transition: all .3s ease;
+  text-decoration: none;
+  &:hover {
+    // opacity: 0.8;
+    transition: all .3s ease;
+  }
+}
+
+::selection {
+  background: #7896C1;
+  color: #fff;
+}

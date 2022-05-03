@@ -1,0 +1,55 @@
+.transcender {
+  h2 {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: $color-secondary-dark;
+    text-align: center;
+    @media (max-width: 992px) {
+      margin-bottom: 25px;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: -0.02em;
+    }
+    strong {
+      font-weight: 600;
+      font-size: 54px;
+      line-height: 64px;
+      letter-spacing: -0.02em;
+      color: $color-primary-light;
+      @media (max-width: 992px) {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.02em;
+      }
+    }
+  }
+  .transcender-video {
+    margin-bottom: 20px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  p { 
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: $color-secondary-dark;
+    margin-bottom: 35px;
+    strong {
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: $color-primary-light;
+    }
+    @media (max-width: 992px) {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}

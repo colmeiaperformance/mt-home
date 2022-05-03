@@ -1,0 +1,113 @@
+footer {
+  background: url(images/footer/footer-topo.png) top center no-repeat;
+  background-size: cover;  
+  .container {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  
+  .copyright{ 
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: $color-white;
+      margin: 0;
+      @media (max-width: 991.98px){
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+      }
+    }
+  }
+  
+  .menu {
+    .nav-link {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 34px;
+      color: $color-secondary-dark;
+      padding: 0;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  
+  .logo {
+    img {
+      margin-bottom: 20px;
+      @media (max-width: 991.98px) {
+        margin-bottom: 12px;
+        max-width: 90px;
+        height: auto;
+      }
+    }
+  }
+  
+  .redes {
+    strong {
+      font-weight: 700;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: $color-white;
+      margin-bottom: 0;
+      strong {
+        font-weight: 700;
+      }
+    }
+    .colmeia {
+      margin-top: 42px;
+      @media (max-width: 991.98px) {
+        margin-top: 25px;
+      }
+      p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0;
+        margin-right: 4px;
+      }
+    }
+    .copyright {
+      margin-top: 25px;
+      p {
+        margin: 0;
+      }
+    }
+    ul {
+      margin-top: 12px;
+      margin-bottom: 0;
+      li {
+        padding: 0;
+      }
+      img {
+        margin-right: 20px;
+        &:hover {
+          opacity: 0.7;
+        }
+        @media (max-width: 991.98px) {
+          width: 30px;
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+  
+  .top {
+    position: absolute;
+    a {
+      color: $color-white;
+      font-size: 30px;
+      display: inline;
+      position: fixed;
+      bottom: 0.8rem;
+      right: 1rem;
+    }
+  }
+}

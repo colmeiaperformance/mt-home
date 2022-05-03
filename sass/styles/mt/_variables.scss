@@ -1,0 +1,51 @@
+//Brand colors
+
+//Primary
+$color-primary-light: #FFC536;
+$color-primary-dark: #F29F05;
+
+//Secondary
+$color-secondary-light: #D4E2F4;
+$color-secondary-medium: #7896C1;
+$color-secondary-medium-80: rgba(120, 150, 193, 0.8);
+$color-secondary-dark: #323B50;
+
+//Solid colors
+
+//Default colors
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-white-50: rgba(255, 255, 255, 0.5);
+$color-prink: #F49093;
+$color-green: #A6D491;
+$color-grey-light: #E2E2E2;
+$color-green-whatsapp: #5CDE4A;
+
+//Backgrounds
+.background-primary-dark {
+  background-color: $color-primary-dark;
+}
+.background-primary-light {
+  background-color: $color-primary-light;
+}
+.background-secondary-dark {
+  background-color: $color-secondary-dark;
+}
+.background-secondary-light{
+  background-color: $color-secondary-medium;
+}
+.background-black {
+  background-color: $color-black;
+}
+.background-white {
+  background-color: $color-white;
+}
+.background-pink {
+  background-color: $color-prink;
+}
+.background-green {
+  background-color: $color-green;
+} 
+.background-green-whatsapp {
+  background-color: $color-green-whatsapp;
+}

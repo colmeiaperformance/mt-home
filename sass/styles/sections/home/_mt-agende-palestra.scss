@@ -1,0 +1,73 @@
+.agende-palestra {
+  .circle {
+    @media (max-width: 992px) {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 14px;
+    }
+    width: 185px;
+    height: 185px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.green {
+      background: #a6d491;
+    }
+    &.red {
+      background: #F49093;
+    }
+    &.blue {
+      background: #98AFDA;
+    }
+    &.yellow {
+      background: #FFC536;
+    }
+  }
+  h4 {
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: $color-white;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+    @media (max-width: 992px) {
+      font-size: 50px;
+      line-height: 59px;
+    }
+  }
+  p {
+    font-weight: 600;
+    color: $color-secondary-dark;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    @media (max-width: 992px) {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  .btn {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: $color-white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 31px;
+    background-color: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    border-radius: 30px;
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $color-primary-dark;
+      color: $color-primary-dark;
+    }
+    @media (max-width: 992px) {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

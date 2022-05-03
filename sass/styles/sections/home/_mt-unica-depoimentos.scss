@@ -1,0 +1,95 @@
+.mt-unica-depoimentos {
+  margin: 70px 0 60px 0;
+  .carousel-control-prev-icon {
+    background: url('images/mt-unica/prev.png') top center no-repeat;
+    width: 24px;
+    height: 44px;
+    @media (max-width: 992px) {
+      width: 8px;
+      height: 18px;
+      background-size: cover;
+    }
+  }
+  .carousel-control-next-icon {
+    background: url('images/mt-unica/next.png') top center no-repeat;
+    width: 24px;
+    height: 44px;
+    @media (max-width: 992px) {
+      width: 8px;
+      height: 18px;
+      background-size: cover;
+    }
+  }
+  .carousel-indicators {
+    margin-bottom: 0;
+    [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      margin-right: 6px;
+      margin-left: 6px;
+      background-color: $color-grey-light;
+      border: 0;
+      @media (max-width: 992px) {
+        height: 6px;
+        width: 8px;
+        margin-right: 4px;
+        margin-left: 4px;
+      }
+    }
+  }
+  .depoimento {
+    margin-bottom: 65px;
+    @media (max-width: 992px) {
+      margin-bottom: 25px;
+    }
+    p {
+      font-style: italic;
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+      color: $color-secondary-dark;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      position: relative;
+      max-width: 750px;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 85%;
+        margin-bottom: 18px;
+      }
+    }
+    img {
+      margin: 0 auto;
+      @media (max-width: 992px) {
+        max-height: 25px;
+      }
+    }
+    .quote {
+      height: 76px;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      @media (max-width: 992px) {
+        margin-bottom: 20px;
+        height: 40px;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        background: url('images/mt-unica/quote.png') top center no-repeat;
+        background-size: cover;
+        height: 76px;
+        width: 94px;
+        left: 0;
+        margin-left: calc(50% - 94px / 2);
+        @media (max-width: 992px) {
+          width: 50px;
+          height: 40px;
+          margin-left: calc(50% - 50px / 2);
+        }
+      }
+    }
+  }
+}

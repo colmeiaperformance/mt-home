@@ -1,0 +1,45 @@
+// /************************************/
+// /********** DEFAULT MT ***************/
+// /************************************/
+@import "styles/mt/_default";
+@import "styles/mt/_style-header";
+@import "styles/mt/_variables";
+
+/************************************/
+/********* MT COMPONENTS *******/
+/************************************/
+
+@import "styles/components/_breadcrumb";
+@import "styles/components/_button";
+@import "styles/components/_carousel";
+@import "styles/components/_footer";
+@import "styles/components/_header";
+@import "styles/components/_lgpd";
+@import "styles/components/_navbar";
+@import "styles/components/_pagination";
+@import "styles/components/_sidebar";
+
+/************************************/
+/********* MT PAGES *************/
+/************************************/
+@import "styles/pages/_404";
+@import "styles/pages/_contact";
+@import "styles/pages/_page-blog";
+@import "styles/pages/_page-instrutores";
+@import "styles/pages/_page";
+@import "styles/pages/_single";
+
+
+/************************************/
+/********* MT SECTIONS *************/
+/************************************/
+@import "styles/sections/home/_mt-agende-palestra";
+@import "styles/sections/home/_mt-como-aprender";
+@import "styles/sections/home/_mt-conheca-beneficios";
+@import "styles/sections/home/_mt-mundo-melhor";
+@import "styles/sections/home/_mt-o-que-dizem";
+@import "styles/sections/home/_mt-transcender";
+@import "styles/sections/home/_mt-unica-depoimentos";
+@import "styles/sections/home/_mt-unica-slide";
+@import "styles/sections/home/_mt-unica";
+@import "styles/sections/home/_mt-visite-blog";

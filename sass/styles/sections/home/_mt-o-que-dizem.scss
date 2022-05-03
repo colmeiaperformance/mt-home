@@ -1,0 +1,202 @@
+.o-que-dizem {
+    background-color: $color-primary-light;
+    h2 {
+        margin-bottom: 40px;
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 64px;
+        letter-spacing: -0.02em;
+        color: $color-white;
+        text-align: center;
+        @media (max-width: 992px) {
+            margin-bottom: 24px;
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: -0.02em;
+        }
+        strong {
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 64px;
+            letter-spacing: -0.02em;
+            @media (max-width: 992px) {
+                font-size: 30px;
+                line-height: 35px;
+                text-align: center;
+                letter-spacing: -0.02em;
+            }
+        }
+    }
+    p {
+        font-weight: 200;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        strong {
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: $color-primary-light;
+        }
+        @media (max-width: 992px) {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    strong {
+        font-weight: 700;
+    }
+    .swiper {
+        cursor: pointer;
+    }
+    .btn {
+        font-weight: 200;
+        font-size: 24px;
+        background-color: $color-white;
+        color: $color-primary-dark;
+        border: 1px solid $color-white;
+        &:hover {
+            background: transparent;
+            border: 1px solid $color-white;
+            color: $color-white;
+        }
+        @media (max-width: 992px) {
+            font-size: 14px;
+        }
+    }
+    .carousel-caption {
+        display: contents;
+    }
+    .swiper-button-prev {
+        // background-image: url("images/o-que-dizem/seta-esquerda.png");
+        width: 24px;
+        height: 44px;
+        color: $color-white-50;
+        &:hover{
+            color: $color-white;
+        }
+        @media (max-width: 992px) {
+            width: 8px;
+            height: 18px;
+        }
+    }
+    .swiper-button-next {
+        // background-image: url("images/o-que-dizem/seta-direita.png");
+        width: 24px;
+        height: 44px;
+        color: $color-white-50;
+        &:hover{
+            color: $color-white;
+        }
+        @media (max-width: 992px) {
+            width: 8px;
+            height: 18px;
+        }
+    }
+    .carousel-control-next, .swiper-button-next {
+        right: 0px;
+        @media (max-width: 992px) {
+            right: 16px;
+        }
+    }
+    .carousel-control-prev, .swiper-button-prev {
+        left: 0px;
+        @media (max-width: 992px) {
+            left: 16px;
+        }
+    }
+    .card-lateral {
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid $color-white;
+        border-radius: 16px;
+        font-size: 10px;
+        padding: 1rem;
+        padding-bottom: 0;
+        p {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .card-centro {
+        iframe {
+            width: 100%;
+            height: 185px;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 0;
+        border: 1px solid $color-white;
+        border-radius: 10px;
+        font-size: 20px;
+        p {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        @media (max-width: 992px) {
+            iframe {
+                width: 100%;
+                height: auto;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 1px solid $color-white;
+            border-radius: 16px;
+            font-size: 10px;
+            padding: 1rem;
+            padding-bottom: 0;
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+    .lateral-left{
+        margin-left: -40px;
+        @media (max-width: 992px) {
+            margin-left: 0px;
+        }
+    }
+    .lateral-right{
+        margin-right: -40px;
+        @media (max-width: 992px) {
+            margin-right: 0px;
+        }
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    iframe {
+        margin-bottom: 20px;
+    }
+}
