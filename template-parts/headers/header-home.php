@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center">
             <div class="col carousel-caption p-0 position-relative text-left text-lg-start start-0 end-0">
-              <h1>
+              <h1 id="title">
                <strong>A mudança começa dentro.</strong><br />
                 20 minutos.<br />
                 2 vezes ao dia.<br />
@@ -34,9 +34,11 @@
   <script>
 		setInterval(function () {
 			document.getElementById('variable-texts').style.display = "none";
+      document.getElementById('variable-texts').classList.add('ajust-1');
+      document.getElementById('title').classList.add('ajust');
 			setTimeout(function () {
 				document.getElementById('variable-texts').style.display = "inline-block";
-			}, 10);
-		}, 12700);
+			}, 14);
+		}, 14000);
 	</script>
 </header>
