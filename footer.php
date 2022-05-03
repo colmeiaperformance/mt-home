@@ -4,30 +4,10 @@
       <div class="col-12 col-lg-2 menu mb-4 mb-lg-0 d-none d-lg-block pb-2">
        <div class="row">
           <div class="col p-0">
-          <?php
-              wp_nav_menu(array(
-                  'theme_location' => 'footer-menu-1',
-                  'container' => false,
-                  'menu_class' => '',
-                  'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="%1$s" class="nav flex-column %2$s">%3$s</ul>',
-                  'depth' => 2,
-                  'walker' => new bootstrap_5_wp_nav_menu_walker()
-              ));
-        ?>
+          
         </div>
         <div class="col p-0">
-          <?php
-              wp_nav_menu(array(
-                  'theme_location' => 'footer-menu-2',
-                  'container' => false,
-                  'menu_class' => '',
-                  'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="%1$s" class="nav flex-column %2$s">%3$s</ul>',
-                  'depth' => 2,
-                  'walker' => new bootstrap_5_wp_nav_menu_walker()
-              ));
-        ?>
+         
         </div>
        </div>
       </div>

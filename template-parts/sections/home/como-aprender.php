@@ -39,7 +39,7 @@
 
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="#" role="button">Inscreva-se</a>
+        <a class="btn px-4" href="https://meditacaotranscendental.com.br/mt-onde-voce-esta-2022/" role="button">Inscreva-se</a>
       </div>
     </div>
   </div>
