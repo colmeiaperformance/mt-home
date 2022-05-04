@@ -32,7 +32,7 @@
     </div>
   </div>
   <script>
-  $(document).ready(function() {
+  jQuery(document).ready(function() {
 
     setInterval(function() {
       document.getElementById('variable-texts').style.display = "none";
