@@ -140,16 +140,8 @@
                 </div>
               </div>
             </div>
-
           </div>
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#oquedizem" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#oquedizem" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button> -->
+
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
@@ -166,18 +158,7 @@
 
   </div>
   <script>
-  // jQuery(function() {
-  //   jQuery('#oquedizem.slide').carousel({
-  //     interval: 8000,
-  //     pause: "hover"
-  //   });
 
-  //   jQuery('input').focus(function() {
-  //     jQuery("#oquedizem").carousel('pause');
-  //   }).blur(function() {
-  //     jQuery("#oquedizem").carousel('cycle');
-  //   });
-  // });
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperVisiteBlog", {
       slidesPerView: 1,

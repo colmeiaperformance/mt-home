@@ -4,7 +4,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container">
-          <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center">
+          <div class="row content-header row-cols-1 row-cols-lg-2 align-items-center justify-content-center ">
             <div class="col carousel-caption p-0 position-relative text-left text-lg-start start-0 end-0">
               <h1 id="title">
                 <strong>A mudança começa dentro.</strong><br />
