@@ -1,6 +1,6 @@
 <section class="como-aprender py-5">
   <div class="container">
-    <h2 class="como-aprender-title">Como aprender <strong><span  class="yellow">MT</span></strong> ?</h2>
+    <h2 class="como-aprender-title mb-0 mb-lg-5">Como aprender <strong><span  class="yellow">MT</span></strong> ?</h2>
     <div class="row align-items-center justify-content-center">
 
       <div class="col-12 col-lg-6 d-none d-lg-block d-lg-flex">
