@@ -181,9 +181,12 @@
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperVisiteBlog", {
       slidesPerView: 1,
+      autoplay: {
+        delay: 6000,
+      },
       slidesPerGroup: 1,
       loop: true,
-      spaceBetween: 10,
+      spaceBetween: 0,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
