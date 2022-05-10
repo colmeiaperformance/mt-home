@@ -1789,7 +1789,7 @@ footer .top a {
   }
 }
 
-.o-que-dizem .card-lateral {
+.o-que-dizem .swiper-slide .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1811,17 +1811,17 @@ footer .top a {
   padding-bottom: 0;
 }
 
-.o-que-dizem .card-lateral iframe {
+.o-que-dizem .swiper-slide .card-lateral iframe {
   width: 100%;
   height: auto;
 }
 
-.o-que-dizem .card-lateral p {
+.o-que-dizem .swiper-slide .card-lateral p {
   font-size: 16px;
   line-height: 20px;
 }
 
-.o-que-dizem .card-centro {
+.o-que-dizem .swiper-slide-next .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1843,18 +1843,18 @@ footer .top a {
   font-size: 20px;
 }
 
-.o-que-dizem .card-centro iframe {
+.o-que-dizem .swiper-slide-next .card-lateral iframe {
   width: 100%;
   height: 185px;
 }
 
-.o-que-dizem .card-centro p {
+.o-que-dizem .swiper-slide-next .card-lateral p {
   font-size: 20px;
   line-height: 26px;
 }
 
 @media (max-width: 992px) {
-  .o-que-dizem .card-centro {
+  .o-que-dizem .swiper-slide-next .card-lateral {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1875,11 +1875,11 @@ footer .top a {
     padding: 1rem;
     padding-bottom: 0;
   }
-  .o-que-dizem .card-centro iframe {
+  .o-que-dizem .swiper-slide-next .card-lateral iframe {
     width: 100%;
     height: auto;
   }
-  .o-que-dizem .card-centro p {
+  .o-que-dizem .swiper-slide-next .card-lateral p {
     font-size: 16px;
     line-height: 20px;
   }

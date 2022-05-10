@@ -35,7 +35,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-centro col-10 col-lg-12">
+                    <div class="card-lateral col-10 col-lg-12">
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/j_sxv44iMI4"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -101,7 +101,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-centro col-10 col-lg-12">
+                    <div class="card-lateral col-10 col-lg-12">
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/xz_So-nYeGw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -195,17 +195,17 @@
       breakpoints: {
         640: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 10,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3,
+          slidesPerGroup: 1,
           spaceBetween: 10,
         },
       },
