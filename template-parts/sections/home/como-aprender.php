@@ -11,8 +11,7 @@
         <div class="col-12 col-lg-8 como-aprender-texto mb-4">
           <p>A Meditação Transcendental é ensinada somente por professores credenciados pela Associação Internacional de
             Meditação (SIM).</p>
-          <p>Mais que um curso.</br>
-            O início de uma jornada de autoconhecimento e evolução.</p>
+          <p>Mais que um curso. O início de uma jornada de autoconhecimento e evolução.</p>
         </div>
       </div>
 

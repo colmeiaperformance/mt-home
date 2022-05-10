@@ -48,7 +48,7 @@
     }
   }
   .btn {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 26px;
     line-height: 30px;
     color: $color-white;
@@ -65,9 +65,8 @@
       color: $color-primary-dark;
     }
     @media (max-width: 992px) {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 16px;
+      line-height: 18px;
     }
   }
 }

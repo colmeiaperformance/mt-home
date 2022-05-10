@@ -189,21 +189,21 @@
         width: 85%;
       }
       p {
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: 400;
+        font-size: 20px;
         line-height: 20px;
         text-align: center;
         color: $color-secondary-dark;     
         margin-bottom: 12px;
         @media (max-width: 992px) {
-          font-size: 12px;
-          line-height: 13px;
+          font-size: 14px;
+          line-height: 14px;
           margin-bottom: 5px;
-          padding: 10px 5px 0 5px;
+          padding: 5px 5px 0 5px;
         }
       }
       .btn {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 22px;
         line-height: 35px;
         color: $color-secondary-dark;   

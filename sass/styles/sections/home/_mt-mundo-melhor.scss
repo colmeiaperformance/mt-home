@@ -66,13 +66,13 @@
   p {
     margin-bottom: 33px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 30px;
     color: $color-white; 
     @media (max-width: 992px) {
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 16px;
+      line-height: 18px;
       margin-bottom: 15px;
     }
     strong {
@@ -80,7 +80,7 @@
     }
   }
   .btn {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 26px;
     line-height: 30px;
     color: $color-white;

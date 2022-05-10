@@ -961,7 +961,7 @@ footer .top a {
 }
 
 .agende-palestra .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -987,9 +987,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .agende-palestra .btn {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -1023,10 +1022,26 @@ footer .top a {
   padding-left: 3rem;
 }
 
+.como-aprender .como-aprender-texto p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323B50;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+  .como-aprender .como-aprender-texto p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
 @media (max-width: 992px) {
   .como-aprender .como-aprender-texto {
-    padding: 1rem;
-    text-align: center;
+    padding: 0;
   }
 }
 
@@ -1071,7 +1086,7 @@ footer .top a {
 }
 
 .como-aprender p {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -1092,8 +1107,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 }
@@ -1131,8 +1146,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender li {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 24px;
     top: 0.4em;
     padding: 0;
@@ -1144,7 +1159,7 @@ footer .top a {
 
 .como-aprender .btn {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -1170,13 +1185,14 @@ footer .top a {
 
 .como-aprender .text-call p {
   font-size: 30px;
+  font-weight: 400;
 }
 
 @media (max-width: 992px) {
   .como-aprender .text-call p {
     font-size: 22px;
     line-height: 26px;
-    font-weight: 100;
+    font-weight: 300;
     margin-top: 2rem;
   }
 }
@@ -1440,8 +1456,8 @@ footer .top a {
 }
 
 .conheca-beneficios .box .hover p {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 20px;
   text-align: center;
   color: #323B50;
@@ -1450,15 +1466,15 @@ footer .top a {
 
 @media (max-width: 992px) {
   .conheca-beneficios .box .hover p {
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 14px;
+    line-height: 14px;
     margin-bottom: 5px;
-    padding: 10px 5px 0 5px;
+    padding: 5px 5px 0 5px;
   }
 }
 
 .conheca-beneficios .box .hover .btn {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
   line-height: 35px;
   color: #323B50;
@@ -1576,16 +1592,16 @@ footer .top a {
 .mundo-melhor p {
   margin-bottom: 33px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
   .mundo-melhor p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 15px;
   }
 }
@@ -1595,7 +1611,7 @@ footer .top a {
 }
 
 .mundo-melhor .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -1667,8 +1683,9 @@ footer .top a {
 }
 
 .o-que-dizem p {
-  font-weight: 200;
+  font-weight: 400;
   line-height: 24px;
+  line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
 }
@@ -1695,8 +1712,8 @@ footer .top a {
 }
 
 .o-que-dizem .btn {
-  font-weight: 200;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 26px;
   background-color: #FFFFFF;
   color: #F29F05;
   border: 1px solid #FFFFFF;
@@ -1966,7 +1983,7 @@ footer .top a {
 }
 
 .transcender p {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -1982,8 +1999,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .transcender p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 }
@@ -2055,9 +2072,9 @@ footer .top a {
 
 .mt-unica-depoimentos .depoimento p {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 30px;
   text-align: center;
   color: #323B50;
   margin: 0 auto;
@@ -2068,8 +2085,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-depoimentos .depoimento p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 18px;
     max-width: 85%;
     margin-bottom: 18px;
   }
@@ -2211,8 +2228,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide h3 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     margin-bottom: 13px;
   }
 }
@@ -2228,14 +2245,14 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide p {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
 .mt-unica-slide .btn {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -2247,8 +2264,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     display: none;
   }
 }
@@ -2286,9 +2303,9 @@ footer .top a {
 
 .mt-unica p {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 30px;
   color: #323B50;
   margin-bottom: 45px;
 }
@@ -2296,10 +2313,10 @@ footer .top a {
 @media (max-width: 992px) {
   .mt-unica p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -2352,7 +2369,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica .video-caption h5 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
   }
 }
@@ -2360,8 +2377,8 @@ footer .top a {
 .mt-unica .video-caption p {
   font-style: italic;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 30px;
   text-align: center;
   color: #323B50;
   margin-bottom: 0;
@@ -2369,8 +2386,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica .video-caption p {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
@@ -2519,7 +2536,7 @@ footer .top a {
 .visite-blog .visite-blog-btn {
   background: #F29F05;
   color: #FFFFFF;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .visite-blog .visite-blog-btn:hover {
