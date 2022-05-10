@@ -253,6 +253,8 @@ footer .top a {
 
 .header--home {
   background: #FFC536;
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
   padding: 0;
   margin-bottom: 53px;
 }

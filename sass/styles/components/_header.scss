@@ -1,6 +1,7 @@
 .header {
   &--home {
     background: $color-primary-light;
+    clip-path: ellipse(150% 100% at 50% 0%);
     padding: 0;
     margin-bottom: 53px;
     @media (max-width: 992px)  {
