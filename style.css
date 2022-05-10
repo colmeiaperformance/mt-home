@@ -2197,6 +2197,31 @@ footer .top a {
   }
 }
 
+.mt-unica-slide .carousel-item .img-1 {
+  -o-object-position: 42%;
+     object-position: 42%;
+}
+
+.mt-unica-slide .carousel-item .img-2 {
+  -o-object-position: 39%;
+     object-position: 39%;
+}
+
+.mt-unica-slide .carousel-item .img-3 {
+  -o-object-position: 38%;
+     object-position: 38%;
+}
+
+.mt-unica-slide .carousel-item .img-5 {
+  -o-object-position: 37%;
+     object-position: 37%;
+}
+
+.mt-unica-slide .carousel-item .img-6 {
+  -o-object-position: 40%;
+     object-position: 40%;
+}
+
 .mt-unica-slide .carousel-control-prev-icon {
   background: url("images/mt-unica/icon-prev.png") top center no-repeat;
   width: 24px;

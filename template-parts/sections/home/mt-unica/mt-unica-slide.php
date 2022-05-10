@@ -2,7 +2,7 @@
   <div id="mt-unica-slide" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide1.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide1.png' ?> alt="Vídeo" width="100%" height="100%" class="img-1 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
@@ -15,7 +15,7 @@
       </div>
      
       <div class="carousel-item">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide2.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide2.png' ?> alt="Vídeo" width="100%" height="100%" class=" img-2 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
@@ -28,7 +28,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide3.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide3.png' ?> alt="Vídeo" width="100%" height="100%" class="img-3 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
@@ -41,7 +41,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide4.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide4.png' ?> alt="Vídeo" width="100%" height="100%" class="img-4 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
@@ -54,7 +54,7 @@
       </div>
 
        <div class="carousel-item">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide5.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide5.png' ?> alt="Vídeo" width="100%" height="100%" class="img-5 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
@@ -67,7 +67,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide6.png' ?> alt="Vídeo" width="100%" height="100%" class="bd-placeholder-img">
+        <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide6.png' ?> alt="Vídeo" width="100%" height="100%" class="img-6 bd-placeholder-img">
         <div class="container">
           <div class="row">
             <div class="col-6 carousel-caption text-start">
