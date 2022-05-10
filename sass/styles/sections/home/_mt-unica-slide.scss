@@ -22,7 +22,8 @@
       height: 300px;
     }
     img {
-      object-fit: cover;
+      // object-fit: cover;
+      object-position: 32% 68%;
       position: relative;
       height: 485px;
       @media (max-width: 992px) {
@@ -118,7 +119,7 @@
     display: none;
     position: relative;
     z-index: 111;
-    width: 90%;
+    width: 78%;
     margin: 0 auto;
     margin-top: -17px;
     &:hover {

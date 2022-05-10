@@ -1188,8 +1188,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     display: inline-block;
   }
 }
@@ -1207,7 +1207,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .text-call p {
-    font-size: 22px;
+    font-size: 23px;
     line-height: 26px;
     font-weight: 300;
     margin-top: 2rem;
@@ -1244,7 +1244,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .conheca-beneficios h2 {
-    font-size: 30px;
+    font-size: 27px;
     line-height: 35px;
     margin-bottom: 30px;
   }
@@ -2003,15 +2003,13 @@ footer .top a {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: -0.02em;
   color: #323B50;
   margin-bottom: 35px;
 }
 
 .transcender p strong {
   font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #FFC536;
+  color: #323B50;
 }
 
 @media (max-width: 992px) {
@@ -2115,7 +2113,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-depoimentos .depoimento img {
-    max-height: 25px;
+    max-height: 88px;
   }
 }
 
@@ -2181,8 +2179,8 @@ footer .top a {
 }
 
 .mt-unica-slide .carousel-item img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-position: 32% 68%;
+     object-position: 32% 68%;
   position: relative;
   height: 485px;
 }
@@ -2309,7 +2307,7 @@ footer .top a {
   display: none;
   position: relative;
   z-index: 111;
-  width: 90%;
+  width: 78%;
   margin: 0 auto;
   margin-top: -17px;
 }
