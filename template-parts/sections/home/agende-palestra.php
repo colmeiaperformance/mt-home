@@ -28,8 +28,8 @@
       <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle yellow rounded-circle">
           <div class="d-block text-center px-2">
-            <h4>+100</h4>
-            <p>mil meditantes no brasil</p>
+            <h4>+500</h4>
+            <p>mil meditantes no Brasil</p>
           </div>
         </div>
       </div>
