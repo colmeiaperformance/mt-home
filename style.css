@@ -1011,7 +1011,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .como-aprender-title {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-size: 30px;
     line-height: 35px;
     letter-spacing: -0.02em;
