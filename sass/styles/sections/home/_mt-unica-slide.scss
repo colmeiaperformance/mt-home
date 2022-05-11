@@ -22,8 +22,7 @@
       height: 300px;
     }
     img {
-      // object-fit: cover;
-      object-position: 32% 68%;
+      object-fit: cover;
       position: relative;
       height: 485px;
       @media (max-width: 992px) {
@@ -34,19 +33,22 @@
       }
     }
     .img-1{
-      object-position: 42%
+      object-position: 42%;      
     }
     .img-2{
-      object-position: 39%
+      object-position: 39%;     
     }
     .img-3{
-      object-position: 38%
+      object-position: 38%;  
+    }
+    .img-4{
+      object-position: 32%;  
     }
     .img-5{
-      object-position: 37%
+      object-position: 37%;     
     }
     .img-6{
-      object-position: 40%
+      object-position: 40%;
     }
   }
   .carousel-control-prev-icon {

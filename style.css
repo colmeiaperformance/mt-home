@@ -2179,8 +2179,8 @@ footer .top a {
 }
 
 .mt-unica-slide .carousel-item img {
-  -o-object-position: 32% 68%;
-     object-position: 32% 68%;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: relative;
   height: 485px;
 }
@@ -2210,6 +2210,11 @@ footer .top a {
 .mt-unica-slide .carousel-item .img-3 {
   -o-object-position: 38%;
      object-position: 38%;
+}
+
+.mt-unica-slide .carousel-item .img-4 {
+  -o-object-position: 32%;
+     object-position: 32%;
 }
 
 .mt-unica-slide .carousel-item .img-5 {
