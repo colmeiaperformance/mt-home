@@ -37,7 +37,7 @@
 
     <div class="row align-items-center justify-content-center py-5">
       <div class="col text-center">
-        <a class="btn" href="#" role="button">Agende a palestra gratuita</a>
+        <a class="btn" href="https://meditacaotranscendental.com.br/mt-onde-voce-esta-2022/" role="button">Agende a palestra gratuita</a>
       </div>
     </div>
 
