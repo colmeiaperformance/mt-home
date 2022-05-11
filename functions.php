@@ -17,11 +17,15 @@ function loading_scripts(){
     wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'jquery-touchSwipe-js', get_template_directory_uri() . '/js/jquery.touchSwipe.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'main-js', get_template_directory_uri() . '/js/main.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'jquery-waypoints-js', get_template_directory_uri() . '/js/jquery.waypoints.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'jquery-counterUp-js', get_template_directory_uri() . '/js/jquery.counterup2.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     
     wp_enqueue_script( 'bootstrap-js');
     wp_enqueue_script( 'swiper-js');
     wp_enqueue_script( 'jquery-touchSwipe-js');
     wp_enqueue_script( 'main-js');
+    wp_enqueue_script( 'jquery-waypoints-js');
+    wp_enqueue_script( 'jquery-counterUp-js');
 }
 
 add_action( 'wp_enqueue_scripts', 'loading_styles' );

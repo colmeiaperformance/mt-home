@@ -13,7 +13,7 @@
       <div class="col-12 col-lg-7">
         <div>
           <p>Como um mergulho em um oceano, a MT nos leva a transpor a superfície inquieta dos pensamentos até chegarmos
-            a um nível mais profundo da mente. Neste lugar, experimentamos um estado de descanso profundo que elimina o
+            a um nível mais profundo da mente.<br> Neste lugar, experimentamos um estado de descanso profundo que elimina o
             estresse e nos leva a acessar uma fonte abundante de energia e de criatividade. </p>
           <p>Chamamos esse nível de <strong>Consciência Pura</strong> ou de <strong>Consciência Transcendental</strong>.
           </p>
